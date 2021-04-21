@@ -9,8 +9,8 @@ if(MITK_USE_CPPMICROSERVICES)
     message(FATAL_ERROR "CPPMICROSERVICES_DIR variable is defined but corresponds to non-existing directory")
   endif()
 
-  set(proj CTK)
-  set(proj_DEPENDENCIES DCMTK)
+  set(proj CPPMICROSERVICES)
+  set(proj_DEPENDENCIES)
   set(CTK_DEPENDS ${proj})
 
   if(NOT DEFINED CPPMICROSERVICES_DIR)
