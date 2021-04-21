@@ -18,6 +18,7 @@ mitkFunctionAddExternalProject(NAME OpenMesh OFF)
 mitkFunctionAddExternalProject(NAME CTK ON DEPENDS Qt5 DCMTK DOC "Use CTK in MITK")
 mitkFunctionAddExternalProject(NAME DCMQI ON DEPENDS DCMTK ITK DOC "Use dcmqi in MITK")
 mitkFunctionAddExternalProject(NAME MatchPoint OFF ADVANCED DEPENDS ITK DOC "Use the MatchPoint translation image registration library")
+mitkFunctionAddExternalProject(NAME CppMicroServices ON)
 
 if(MITK_USE_Qt5)
  mitkFunctionAddExternalProject(NAME Qwt ON ADVANCED DEPENDS Qt5)

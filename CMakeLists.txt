@@ -250,6 +250,7 @@ endforeach()
 # external projects build via the
 # MITK superbuild
 
+option(MITK_USE_CPPMICROSERVICES "Build the CppMicroServices framework" ON)
 option(MITK_USE_BLUEBERRY "Build the BlueBerry platform" ON)
 option(MITK_USE_OpenCL "Use OpenCL GPU-Computing library" OFF)
 option(MITK_USE_OpenMP "Use OpenMP" OFF)
